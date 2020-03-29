@@ -10,12 +10,11 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://tdj03001:101%Sure!!@ds213529.mlab.com:13529/heroku_8h9bcsw8", {
-
-  useMongoClient
-  // useNewUrlParser: true,
-  // useFindAndModify: false
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines", {
+  useNewUrlParser: true,
+  useFindAndModify: false
 });
+
 
 app.use(require("./routes/apiRoutes.js"))
 app.use(require("./routes/htmlRoutes.js"))
