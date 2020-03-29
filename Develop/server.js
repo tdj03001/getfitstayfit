@@ -5,12 +5,12 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://tdj03001:101%Sure!!@ds213529.mlab.com:13529/heroku_8h9bcsw8", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
