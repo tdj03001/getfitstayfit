@@ -12,9 +12,9 @@ Users can also click the Dashboard button to see graphs and charts summarizing t
 
 # Screenshot
 
-![Screenshot](public/img/app-screenshot.png)
+![Screenshot](/public/img/app-screenshot.png)
 
-![Screenshot](public/img/app-screenshot2.png)
+![Screenshot](/public/img/app-screenshot2.png)
 
 
 # Live site
