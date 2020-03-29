@@ -11,8 +11,10 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://tdj03001:101%Sure!!@ds213529.mlab.com:13529/heroku_8h9bcsw8", {
-  useNewUrlParser: true,
-  useFindAndModify: false
+
+  useMongoClient
+  // useNewUrlParser: true,
+  // useFindAndModify: false
 });
 
 app.use(require("./routes/apiRoutes.js"))
