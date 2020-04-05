@@ -1,4 +1,4 @@
-# UPenn-Week-17-Homework-WorkoutTracker
+# WorkoutTracker
 
 # Purpose
 
