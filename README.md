@@ -17,7 +17,7 @@ Users can also click the Dashboard button to see graphs and charts summarizing t
 ![Screenshot](./public/img/app-screenshot2.png)
 
 
-# Live site (under construction)
+# Live site 
 
 https://glacial-ravine-23081.herokuapp.com/
 
