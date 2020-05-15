@@ -10,19 +10,19 @@ Users will create a new workout by clicking the New Workout button on the home p
 
 Users can also click the Dashboard button to see graphs and charts summarizing their past workouts.
 
-# Screenshot
+## Screenshot
 
 ![Screenshot](./public/img/app-screenshot.png)
 
 ![Screenshot](./public/img/app-screenshot2.png)
 
 
-# Live site 
+## Live site 
 
 https://getfitstayfit.herokuapp.com/
 
 
-# GitHub Repo
+## GitHub Repo
 
 https://github.com/tdj03001/UPenn-Week-17-Homework-WorkoutTracker
 
